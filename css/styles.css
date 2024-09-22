@@ -1,0 +1,36 @@
+body{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    transition: background-color .3s;
+}
+#felicidad{
+    overflow: hidden;
+    display:flex;
+    flex-direction: column;
+    color: yellow;
+    text-align: center;
+    max-height: 0;
+    transition: max-height ease-in-out .8s;
+}
+#felicidad.mostrar{
+    max-height: 800px;
+}
+img{
+    width: 220px;
+    height: auto;
+    margin: auto;
+}
+#boton{
+    margin:auto;
+    background-color: darkslategrey;
+    color: aliceblue;
+    width: 180px;
+    height: 50px;
+    border-radius: 9px;
+    margin-top: 100px;
+}
+#boton.ocultar{
+    display: none;
+    height: 0;
+}
