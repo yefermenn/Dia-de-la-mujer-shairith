@@ -8,16 +8,26 @@ body{
     overflow: hidden;
     display:flex;
     flex-direction: column;
-    color: yellow;
+    color: #112A46;
+    font-family: "Comic Neue", cursive;
     text-align: center;
     max-height: 0;
     transition: max-height ease-in-out .8s;
 }
+
 #felicidad.mostrar{
     max-height: 800px;
 }
 img{
     width: 220px;
+    height: auto;
+    margin: auto;
+}
+#titulo{
+    display: flex;
+}
+.mas-pequeño{
+    width: 100px;
     height: auto;
     margin: auto;
 }
